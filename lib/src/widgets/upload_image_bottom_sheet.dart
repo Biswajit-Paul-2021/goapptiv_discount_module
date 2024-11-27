@@ -17,6 +17,7 @@ class UploadImageBottomSheet extends StatelessWidget {
 
   final ImagePicker _picker = ImagePicker();
 
+  // !! Will need to change from static widget.
   static Future<void> show(BuildContext context) async {
     return showModalBottomSheet(
       isScrollControlled: true,
